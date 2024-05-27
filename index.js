@@ -13,7 +13,7 @@ app.get('/', (req, res) => {
 })
 
 //mongodb configuration
-const uri = "mongodb+srv://DB_USER:DB_PASS@cluster0.t4glwof.mongodb.net/?retryWrites=true&w=majority";
+const uri = "mongodb+srv://mern-book-store:k3OIHhd6gRu8kRIM@cluster0.t4glwof.mongodb.net/?retryWrites=true&w=majority";
 
 // Create a MongoClient with a MongoClientOptions object to set the Stable API version
 const client = new MongoClient(uri, {
